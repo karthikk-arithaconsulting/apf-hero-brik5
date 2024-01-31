@@ -1,0 +1,105 @@
+{
+  "brikId": "",
+  "brikName": "",
+  "editorId": "",
+  "version": "*",
+  "editable": true,
+  "style": {
+    "font": {
+      "family": "",
+      "size": "",
+      "style": "",
+      "color": "",
+      "weight": ""
+    },
+    "backgroundColor": "",
+    "color": ""
+  },
+  "data": [
+    {
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "image",
+        "for": "",
+        "link": "https://cdn.pixabay.com/photo/2016/03/12/23/18/man-1253004_1280.jpg"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "About Me ",
+        "label": "",
+        "type": "title",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "h1",
+          "style": "",
+          "color": "",
+          "weight": "900"
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. The element will take up the specified width, and the remaining space will be split equally between the two margins:",
+        "label": "",
+        "type": "text",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "16",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Read More",
+        "label": "",
+        "type": "button",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "lg",
+          "style": "filled",
+          "color": "white",
+          "weight": ""
+        },
+        "backgroundColor": "black",
+        "radius":""
+      },
+      "editable": true,
+      "display": "block"
+    }
+  ]
+}
