@@ -1,6 +1,6 @@
 {
   "brikId": "",
-  "brikName": "",
+  "brikName": "Hero Brik",
   "editorId": "",
   "version": "*",
   "editable": true,
@@ -19,10 +19,33 @@
     {
       "content": {
         "value": "",
-        "label": "",
-        "type": "image",
+        "label": "Background Image",
+        "type": "img",
         "for": "",
-        "link": "https://cdn.pixabay.com/photo/2016/03/12/23/18/man-1253004_1280.jpg"
+        "src":"https://cdn.pixabay.com/photo/2022/04/02/14/22/the-great-wave-off-kanagawa-7107112_1280.png",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "main Image",
+        "type": "img",
+        "for": "",
+        "src":"https://cdn.pixabay.com/photo/2017/07/19/16/44/questions-2519654_640.png",
+        "link": ""
       },
       "style": {
         "font": {
@@ -40,7 +63,7 @@
     {
       "content": {
         "value": "About Me ",
-        "label": "",
+        "label": "title",
         "type": "title",
         "for": "",
         "link": ""
@@ -61,7 +84,7 @@
     {
       "content": {
         "value": "Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. The element will take up the specified width, and the remaining space will be split equally between the two margins:",
-        "label": "",
+        "label": "main text",
         "type": "text",
         "for": "",
         "link": ""
@@ -82,7 +105,7 @@
     {
       "content": {
         "value": "Read More",
-        "label": "",
+        "label": "button",
         "type": "button",
         "for": "",
         "link": ""
@@ -96,7 +119,9 @@
           "weight": ""
         },
         "backgroundColor": "black",
-        "radius":""
+        "radius":"",
+        "width":"",
+        "height":""
       },
       "editable": true,
       "display": "block"

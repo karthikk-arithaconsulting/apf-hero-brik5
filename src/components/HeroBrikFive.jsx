@@ -6,14 +6,17 @@ import "@apf/core/dist/style.css";
 
 
 function HeroBrikFive(props){
-    const imageObject = props.data.data.find(item => item.content.type === "image");
+    const imageObject = props.data.data.find(item => item.content.type === "img" && item.content.label === "main Image");
+    const bagroundImage = props.data.data.find(item => item.content.type === "img" && item.content.label === "Background Image");
     const titleObject = props.data.data.find(item => item.content.type === "title");
     const textObject = props.data.data.find(item => item.content.type === "text");
     const buttonObject = props.data.data.find(item => item.content.type === "button");
     
-
     return(
         <div className="Hero-container">
+            <div className="backgroundImage">
+                <img src={bagroundImage?.content?.src} className="backgroundImageTag"></img>
+            </div>
             <div className="Hero-content-container">
                 <div className="Hero-child-content-container">
                     <Title c={titleObject?.style?.font?.color} fz={titleObject?.style?.font?.size}  style={{ fontFamily: titleObject?.style?.font?.family }} fw={titleObject?.style?.font?.weight} className="Hero-Title-div">{titleObject?.content?.value}</Title>
@@ -22,7 +25,7 @@ function HeroBrikFive(props){
                 </div>
             </div>
             <div className="Hero-image-container">
-                <img src={imageObject?.content?.link} className="ChildImageTag"></img>
+                <img src={imageObject?.content?.src} className="ChildImageTag"></img>
             </div>
         </div>
     );
