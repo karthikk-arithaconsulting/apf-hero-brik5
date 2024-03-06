@@ -22,7 +22,7 @@
         "label": "Background Image",
         "type": "img",
         "for": "Background Image",
-        "src": "",
+        "src": "https://img.freepik.com/free-vector/dark-wavy-colors-background_23-2148403785.jpg?t=st=1709709426~exp=1709713026~hmac=107f6404643e2f69d6d5e0d0932caf60024323ed6441b3b7696b8c99204051eb&w=826",
         "link": ""
       },
       "style": {
@@ -45,7 +45,7 @@
         "label": "brik image",
         "type": "img",
         "for": "brik Image",
-        "src": "https://img.freepik.com/free-vector/helping-partner-concept-illustration_114360-8867.jpg?t=st=1709717337~exp=1709720937~hmac=54bab7b26bb241026e7563e072ed2e1599211bc4d445ce162f3d1bff8f2237d0&w=740",
+        "src": "https://www.aritha.com/wp-content/uploads/2022/07/robo2.png",
         "link": ""
       },
       "style": {
@@ -59,7 +59,8 @@
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "block"
+      "display": "block",
+      "isHighlighted": false
     },
     {
       "content": {
@@ -67,7 +68,7 @@
         "label": "subImage one",
         "type": "img",
         "for": "subImage one",
-        "src": "https://cdn-icons-gif.flaticon.com/14183/14183431.gif",
+        "src": "https://cdn-icons-png.freepik.com/256/10218/10218679.png?ga=GA1.1.234094234.1706612419&",
         "link": ""
       },
       "style": {
@@ -81,7 +82,7 @@
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "none",
+      "display": "block",
       "isHighlighted": false
     },
     {
@@ -94,16 +95,16 @@
       },
       "style": {
         "font": {
-          "family": "Nunito, sans-serif",
+          "family": "",
           "size": "30",
           "style": "",
-          "color": "",
+          "color": "#fcfcfc",
           "weight": "900"
         },
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "none",
+      "display": "block",
       "isHighlighted": false
     },
     {
@@ -116,16 +117,16 @@
       },
       "style": {
         "font": {
-          "family": "Nunito, sans-serif",
+          "family": "",
           "size": "16",
           "style": "",
-          "color": "",
+          "color": "#ffffff",
           "weight": ""
         },
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "none",
+      "display": "block",
       "isHighlighted": false
     },
     {
@@ -134,7 +135,7 @@
         "label": "subImage two",
         "type": "img",
         "for": "subImage two",
-        "src": "https://cdn-icons-gif.flaticon.com/14447/14447467.gif",
+        "src": "https://cdn-icons-png.freepik.com/256/2361/2361966.png?ga=GA1.1.234094234.1706612419&",
         "link": ""
       },
       "style": {
@@ -148,7 +149,7 @@
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "none",
+      "display": "block",
       "isHighlighted": false
     },
     {
@@ -161,16 +162,16 @@
       },
       "style": {
         "font": {
-          "family": "Nunito, sans-serif",
+          "family": "",
           "size": "30",
           "style": "",
-          "color": "",
+          "color": "#ffffff",
           "weight": "900"
         },
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "none",
+      "display": "block",
       "isHighlighted": false
     },
     {
@@ -186,13 +187,13 @@
           "family": "Nunito, sans-serif",
           "size": "16",
           "style": "",
-          "color": "",
+          "color": "#ffffff",
           "weight": ""
         },
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "none",
+      "display": "block",
       "isHighlighted": false
     },
     {
@@ -201,7 +202,7 @@
         "label": "subImage three",
         "type": "img",
         "for": "subImage three",
-        "src": "https://cdn-icons-gif.flaticon.com/12205/12205137.gif",
+        "src": "https://cdn-icons-png.freepik.com/256/4961/4961759.png?ga=GA1.1.234094234.1706612419&",
         "link": ""
       },
       "style": {
@@ -215,7 +216,7 @@
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "none",
+      "display": "block",
       "isHighlighted": false
     },
     {
@@ -228,10 +229,10 @@
       },
       "style": {
         "font": {
-          "family": "Nunito, sans-serif",
-          "size": "65px",
+          "family": "",
+          "size": "30",
           "style": "",
-          "color": "",
+          "color": "#ffffff",
           "weight": "900"
         },
         "backgroundColor": ""
@@ -242,7 +243,7 @@
     },
     {
       "content": {
-        "value": "You can count on our support during our work on your project as well as after its completion. Brand programs drive new customer acquisition. ProMotionic has a rich experience in branding and rebranding.",
+        "value": "You can count on our support during our work on your project as well as after its completion",
         "label": "sub text",
         "type": "text",
         "for": "subtext three",
@@ -250,42 +251,17 @@
       },
       "style": {
         "font": {
-          "family": "Nunito, sans-serif",
+          "family": "",
           "size": "16",
           "style": "",
-          "color": "",
+          "color": "#ffffff",
           "weight": ""
         },
         "backgroundColor": ""
       },
       "editable": true,
       "display": "block",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "Read more",
-        "label": "Button",
-        "type": "button",
-        "for": "button",
-        "link": "",
-        "target": "_self"
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "22",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": "",
-        "width": "160px",
-        "height": "50px",
-        "radius": "50px"
-      },
-      "editable": true,
-      "display": "block"
+      "isHighlighted": true
     }
   ]
 }
