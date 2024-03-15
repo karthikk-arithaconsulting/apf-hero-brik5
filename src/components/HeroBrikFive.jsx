@@ -8,8 +8,7 @@ import "@apf/core/dist/style.css";
 function HeroBrikFive(props){
     const BrikImage = props.data.data.find(item => item.content.type === "img" && item.content.for === "brik Image");
     const backgroundImage = props.data.data.find(item => item.content.type === "img" && item.content.for === "Background Image");
-    // const textObject = props.data.data.find(item => item.content.type === "text");
-    // const buttonObject = props.data.data.find(item => item.content.type === "button");
+  
     const titleOne = props?.data?.data?.find(
         (item) =>
           item?.content?.type === "title" && item?.content?.for === "title one",
@@ -54,7 +53,7 @@ function HeroBrikFive(props){
     return(
         <div
       className="Hero-container"
-      style={{ backgroundColor: props?.data?.style?.backgroundColor }}
+      style={{ backgroundColor: props?.data?.style?.backgroundColor ,height: props?.data?.style?.height}}
     >
       <div className="backgroundImage">
         {backgroundImage &&
@@ -77,11 +76,11 @@ function HeroBrikFive(props){
           <div className="right-child-content">
             <div className="content-1">
               {subImageOne &&
-                subImageOne.content.src &&
+                subImageOne?.content?.src &&
                 subImageOne?.display === "block" && (
                   <div className="subImage">
                     <img
-                      src={subImageOne.content.src}
+                      src={subImageOne?.content?.src}
                       className="subImage-div"
                     ></img>
                   </div>
@@ -122,7 +121,7 @@ function HeroBrikFive(props){
                 subImageTwo?.display === "block" && (
                   <div className="subImage">
                     <img
-                      src={subImageTwo.content.src}
+                      src={subImageTwo?.content?.src}
                       className="subImage-div"
                     ></img>
                   </div>
@@ -163,7 +162,7 @@ function HeroBrikFive(props){
                 subImageThree?.display === "block" && (
                   <div className="subImage">
                     <img
-                      src={subImageThree.content.src}
+                      src={subImageThree?.content?.src}
                       className="subImage-div"
                     ></img>
                   </div>
@@ -198,7 +197,7 @@ function HeroBrikFive(props){
                 )}
               </div>
             </div>
-            { button && button?.display === "block" &&<div className="button-div"><Button style={{ color: button?.style?.font.color, backgroundColor: button?.style?.backgroundColor ,fontFamily: button?.style.font.family,height: button?.style?.height, width: button?.style?.width}}  size={button?.style.font.size} variant="filled" radius={button?.style?.radius} onClick={() =>handleButtonClick(button)} className="Brik-Container-button">{button?.content?.value}</Button></div>}
+            { button && button?.display === "block" &&<div className="button-div"><Button style={{ color: button?.style?.font?.color, backgroundColor: button?.style?.backgroundColor ,fontFamily: button?.style?.font?.family,height: button?.style?.height, width: button?.style?.width}}  size={button?.style?.font?.size} variant="filled" radius={button?.style?.radius} onClick={() =>handleButtonClick(button)} className="Brik-Container-button">{button?.content?.value}</Button></div>}
           </div>
         </div>
       </div>

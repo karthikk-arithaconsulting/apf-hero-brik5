@@ -2,5 +2,9 @@
   "root": true,
   "prePublish": [
     "npm run eslint"
-  ]
+  ],
+  "author": "<chethan.m@arithaconsulting.com>",
+  "version": "0.1.0",
+  "brikId": "",
+  "brikName": ""
 }
