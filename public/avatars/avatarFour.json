@@ -1,291 +1,312 @@
 {
-  "brikId": "",
-  "brikName": "Hero Brik",
-  "editorId": "",
-  "version": "*",
-  "editable": true,
-  "style": {
-    "font": {
-      "family": "",
-      "size": "",
-      "style": "",
-      "color": "",
-      "weight": ""
-    },
-    "backgroundColor": "",
-    "color": ""
-  },
-  "data": [
+  "pages": [
     {
-      "content": {
-        "value": "",
-        "label": "Background Image",
-        "type": "img",
-        "for": "Background Image",
-        "src": "",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "block",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "",
-        "label": "brik image",
-        "type": "img",
-        "for": "brik Image",
-        "src": "https://img.freepik.com/free-vector/helping-partner-concept-illustration_114360-8867.jpg?t=st=1709717337~exp=1709720937~hmac=54bab7b26bb241026e7563e072ed2e1599211bc4d445ce162f3d1bff8f2237d0&w=740",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "block"
-    },
-    {
-      "content": {
-        "value": "",
-        "label": "subImage one",
-        "type": "img",
-        "for": "subImage one",
-        "src": "https://cdn-icons-gif.flaticon.com/14183/14183431.gif",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "none",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "Strategic Planning",
-        "label": "sub title",
-        "type": "title",
-        "for": "title one",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "Nunito, sans-serif",
-          "size": "30",
-          "style": "",
-          "color": "",
-          "weight": "900"
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "none",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "Developing a strategic plan is crucial as it defines every detail of your further actions.",
-        "label": "sub text",
-        "type": "text",
-        "for": "subtext one",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "Nunito, sans-serif",
-          "size": "16",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "none",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "",
-        "label": "subImage two",
-        "type": "img",
-        "for": "subImage two",
-        "src": "https://cdn-icons-gif.flaticon.com/14447/14447467.gif",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "none",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "Brand Identity",
-        "label": "sub title",
-        "type": "title",
-        "for": "title two",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "Nunito, sans-serif",
-          "size": "30",
-          "style": "",
-          "color": "",
-          "weight": "900"
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "none",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "Brand programs drive new customer acquisition. ProMotionic has a rich experience in branding and rebranding.",
-        "label": "sub text",
-        "type": "text",
-        "for": "subtext two",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "Nunito, sans-serif",
-          "size": "16",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "none",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "",
-        "label": "subImage three",
-        "type": "img",
-        "for": "subImage three",
-        "src": "https://cdn-icons-gif.flaticon.com/12205/12205137.gif",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "none",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "Best Support",
-        "label": "sub title",
-        "type": "title",
-        "for": "title three",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "Nunito, sans-serif",
-          "size": "65px",
-          "style": "",
-          "color": "",
-          "weight": "900"
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "block",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "You can count on our support during our work on your project as well as after its completion. Brand programs drive new customer acquisition. ProMotionic has a rich experience in branding and rebranding.",
-        "label": "sub text",
-        "type": "text",
-        "for": "subtext three",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "Nunito, sans-serif",
-          "size": "16",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "block",
-      "isHighlighted": false
-    },
-    {
-      "content": {
-        "value": "Read more",
-        "label": "Button",
-        "type": "button",
-        "for": "button",
-        "link": "",
-        "target": "_self"
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "22",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": "",
-        "width": "160px",
-        "height": "50px",
-        "radius": "50px"
-      },
-      "editable": true,
-      "display": "block"
+      "pageName": "page 1",
+      "pageData": [
+        {
+          "type": "grid",
+          "style": {},
+          "cols": [
+            {
+              "colspan": "4",
+              "style": {},
+              "colData": [
+                {
+                  "brikId": "",
+                  "brikName": "Hero Brik",
+                  "editorId": "avatar-4",
+                  "version": "*",
+                  "editable": true,
+                  "style": {
+                    "font": {
+                      "family": "",
+                      "size": "",
+                      "style": "",
+                      "color": "",
+                      "weight": ""
+                    },
+                    "backgroundColor": "",
+                    "color": ""
+                  },
+                  "data": [
+                    {
+                      "content": {
+                        "value": "",
+                        "label": "Background Image",
+                        "type": "img",
+                        "for": "Background Image",
+                        "src": "",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "",
+                          "size": "",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block",
+                      "isHighlighted": false
+                    },
+                    {
+                      "content": {
+                        "value": "",
+                        "label": "brik image",
+                        "type": "img",
+                        "for": "brik Image",
+                        "src": "https://img.freepik.com/free-vector/helping-partner-concept-illustration_114360-8867.jpg?t=st=1709717337~exp=1709720937~hmac=54bab7b26bb241026e7563e072ed2e1599211bc4d445ce162f3d1bff8f2237d0&w=740",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "",
+                          "size": "",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    },
+                    {
+                      "content": {
+                        "value": "",
+                        "label": "subImage one",
+                        "type": "img",
+                        "for": "subImage one",
+                        "src": "https://cdn-icons-gif.flaticon.com/14183/14183431.gif",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "",
+                          "size": "",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "none",
+                      "isHighlighted": false
+                    },
+                    {
+                      "content": {
+                        "value": "Strategic Planning",
+                        "label": "sub title",
+                        "type": "title",
+                        "for": "title one",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "30",
+                          "style": "",
+                          "color": "",
+                          "weight": "900"
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "none",
+                      "isHighlighted": false
+                    },
+                    {
+                      "content": {
+                        "value": "Developing a strategic plan is crucial as it defines every detail of your further actions.",
+                        "label": "sub text",
+                        "type": "text",
+                        "for": "subtext one",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "16",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "none",
+                      "isHighlighted": false
+                    },
+                    {
+                      "content": {
+                        "value": "",
+                        "label": "subImage two",
+                        "type": "img",
+                        "for": "subImage two",
+                        "src": "https://cdn-icons-gif.flaticon.com/14447/14447467.gif",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "",
+                          "size": "",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "none",
+                      "isHighlighted": false
+                    },
+                    {
+                      "content": {
+                        "value": "Brand Identity",
+                        "label": "sub title",
+                        "type": "title",
+                        "for": "title two",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "30",
+                          "style": "",
+                          "color": "",
+                          "weight": "900"
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "none",
+                      "isHighlighted": false
+                    },
+                    {
+                      "content": {
+                        "value": "Brand programs drive new customer acquisition. ProMotionic has a rich experience in branding and rebranding.",
+                        "label": "sub text",
+                        "type": "text",
+                        "for": "subtext two",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "16",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "none",
+                      "isHighlighted": false
+                    },
+                    {
+                      "content": {
+                        "value": "",
+                        "label": "subImage three",
+                        "type": "img",
+                        "for": "subImage three",
+                        "src": "https://cdn-icons-gif.flaticon.com/12205/12205137.gif",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "",
+                          "size": "",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "none",
+                      "isHighlighted": false
+                    },
+                    {
+                      "content": {
+                        "value": "Best Support",
+                        "label": "sub title",
+                        "type": "title",
+                        "for": "title three",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "65px",
+                          "style": "",
+                          "color": "",
+                          "weight": "900"
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block",
+                      "isHighlighted": false
+                    },
+                    {
+                      "content": {
+                        "value": "You can count on our support during our work on your project as well as after its completion. Brand programs drive new customer acquisition. ProMotionic has a rich experience in branding and rebranding.",
+                        "label": "sub text",
+                        "type": "text",
+                        "for": "subtext three",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "16",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block",
+                      "isHighlighted": false
+                    },
+                    {
+                      "content": {
+                        "value": "Read more",
+                        "label": "Button",
+                        "type": "button",
+                        "for": "button",
+                        "link": "",
+                        "target": "_self"
+                      },
+                      "style": {
+                        "font": {
+                          "family": "",
+                          "size": "22",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": "",
+                        "width": "160px",
+                        "height": "50px",
+                        "radius": "50px"
+                      },
+                      "editable": true,
+                      "display": "block"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

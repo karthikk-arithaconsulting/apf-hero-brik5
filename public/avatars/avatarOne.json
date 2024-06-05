@@ -1,235 +1,255 @@
 {
-    "brikId": "",
-    "brikName": "Hero Brik",
-    "editorId": "",
-    "version": "*",
-    "editable": true,
-    "style": {
-      "font": {
-        "family": "",
-        "size": "",
-        "style": "",
-        "color": "",
-        "weight": ""
-      },
-      "backgroundColor": "",
-      "color": ""
-    },
-    "data": [
-      {
-        "content": {
-          "value": "",
-          "label": "brik image",
-          "type": "img",
-          "for": "brik Image",
-          "src":"https://img.freepik.com/free-vector/characters-people-holding-internet-search-icons_53876-26815.jpg?size=626&ext=jpg&ga=GA1.1.234094234.1706612419&semt=ais",
-          "link": ""
-        },
-        "style": {
-          "font": {
-            "family": "",
-            "size": "",
-            "style": "",
-            "color": "",
-            "weight": ""
-          },
-          "backgroundColor": ""
-        },
-        "editable": true,
-        "display": "block"
-      },
-      {
-        "content": {
-          "value": "",
-          "label": "subImage one",
-          "type": "img",
-          "for": "subImage one",
-          "src": "https://cdn-icons-gif.flaticon.com/14183/14183431.gif",
-          "link": ""
-        },
-        "style": {
-          "font": {
-            "family": "",
-            "size": "",
-            "style": "",
-            "color": "",
-            "weight": ""
-          },
-          "backgroundColor": ""
-        },
-        "editable": true,
-        "display": "block"
-      },
-      {
-        "content": {
-          "value": "Strategic Planning",
-          "label": "sub title",
-          "type": "title",
-          "for": "title one",
-          "link": ""
-        },
-        "style": {
-          "font": {
-            "family": "Nunito, sans-serif",
-            "size": "30",
-            "style": "",
-            "color": "",
-            "weight": "900"
-          },
-          "backgroundColor": ""
-        },
-        "editable": true,
-        "display": "block"
-      },
-      {
-        "content": {
-          "value": "Developing a strategic plan is crucial as it defines every detail of your further actions.",
-          "label": "sub text",
-          "type": "text",
-          "for": "subtext one",
-          "link": ""
-        },
-        "style": {
-          "font": {
-            "family": "Nunito, sans-serif",
-            "size": "16",
-            "style": "",
-            "color": "",
-            "weight": ""
-          },
-          "backgroundColor": ""
-        },
-        "editable": true,
-        "display": "block"
-      },
-      {
-        "content": {
-          "value": "",
-          "label": "subImage two",
-          "type": "img",
-          "for": "subImage two",
-          "src": "https://cdn-icons-gif.flaticon.com/14447/14447467.gif",
-          "link": ""
-        },
-        "style": {
-          "font": {
-            "family": "",
-            "size": "",
-            "style": "",
-            "color": "",
-            "weight": ""
-          },
-          "backgroundColor": ""
-        },
-        "editable": true,
-        "display": "block"
-      },
-      {
-        "content": {
-          "value": "Brand Identity",
-          "label": "sub title",
-          "type": "title",
-          "for": "title two",
-          "link": ""
-        },
-        "style": {
-          "font": {
-            "family": "Nunito, sans-serif",
-            "size": "30",
-            "style": "",
-            "color": "",
-            "weight": "900"
-          },
-          "backgroundColor": ""
-        },
-        "editable": true,
-        "display": "block"
-      },
-      {
-        "content": {
-          "value": "Brand programs drive new customer acquisition. ProMotionic has a rich experience in branding and rebranding.",
-          "label": "sub text",
-          "type": "text",
-          "for": "subtext two",
-          "link": ""
-        },
-        "style": {
-          "font": {
-            "family": "Nunito, sans-serif",
-            "size": "16",
-            "style": "",
-            "color": "",
-            "weight": ""
-          },
-          "backgroundColor": ""
-        },
-        "editable": true,
-        "display": "block"
-      },
-      {
-        "content": {
-          "value": "",
-          "label": "subImage three",
-          "type": "img",
-          "for": "subImage three",
-          "src": "https://cdn-icons-gif.flaticon.com/12205/12205137.gif",
-          "link": ""
-        },
-        "style": {
-          "font": {
-            "family": "",
-            "size": "",
-            "style": "",
-            "color": "",
-            "weight": ""
-          },
-          "backgroundColor": ""
-        },
-        "editable": true,
-        "display": "block"
-      },
-      {
-        "content": {
-          "value": "Best Support",
-          "label": "sub title",
-          "type": "title",
-          "for": "title three",
-          "link": ""
-        },
-        "style": {
-          "font": {
-            "family": "Nunito, sans-serif",
-            "size": "30",
-            "style": "",
-            "color": "",
-            "weight": "900"
-          },
-          "backgroundColor": ""
-        },
-        "editable": true,
-        "display": "block"
-      },
-      {
-        "content": {
-          "value": "You can count on our support during our work on your project as well as after its completion",
-          "label": "sub text",
-          "type": "text",
-          "for": "subtext three",
-          "link": ""
-        },
-        "style": {
-          "font": {
-            "family": "Nunito, sans-serif",
-            "size": "16",
-            "style": "",
-            "color": "",
-            "weight": ""
-          },
-          "backgroundColor": ""
-        },
-        "editable": true,
-        "display": "block"
-      }
-    ]
-  }
-  
+  "pages": [
+    {
+      "pageName": "page 1",
+      "pageData": [
+        {
+          "type": "grid",
+          "style": {},
+          "cols": [
+            {
+              "colspan": "4",
+              "style": {},
+              "colData": [
+                {
+                  "brikId": "",
+                  "brikName": "Hero Brik",
+                  "editorId": "avatar-1",
+                  "version": "*",
+                  "editable": true,
+                  "style": {
+                    "font": {
+                      "family": "",
+                      "size": "",
+                      "style": "",
+                      "color": "",
+                      "weight": ""
+                    },
+                    "backgroundColor": "",
+                    "color": ""
+                  },
+                  "data": [
+                    {
+                      "content": {
+                        "value": "",
+                        "label": "brik image",
+                        "type": "img",
+                        "for": "brik Image",
+                        "src": "https://img.freepik.com/free-vector/characters-people-holding-internet-search-icons_53876-26815.jpg?size=626&ext=jpg&ga=GA1.1.234094234.1706612419&semt=ais",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "",
+                          "size": "",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    },
+                    {
+                      "content": {
+                        "value": "",
+                        "label": "subImage one",
+                        "type": "img",
+                        "for": "subImage one",
+                        "src": "https://cdn-icons-gif.flaticon.com/14183/14183431.gif",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "",
+                          "size": "",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    },
+                    {
+                      "content": {
+                        "value": "Strategic Planning",
+                        "label": "sub title",
+                        "type": "title",
+                        "for": "title one",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "30",
+                          "style": "",
+                          "color": "",
+                          "weight": "900"
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    },
+                    {
+                      "content": {
+                        "value": "Developing a strategic plan is crucial as it defines every detail of your further actions.",
+                        "label": "sub text",
+                        "type": "text",
+                        "for": "subtext one",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "16",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    },
+                    {
+                      "content": {
+                        "value": "",
+                        "label": "subImage two",
+                        "type": "img",
+                        "for": "subImage two",
+                        "src": "https://cdn-icons-gif.flaticon.com/14447/14447467.gif",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "",
+                          "size": "",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    },
+                    {
+                      "content": {
+                        "value": "Brand Identity",
+                        "label": "sub title",
+                        "type": "title",
+                        "for": "title two",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "30",
+                          "style": "",
+                          "color": "",
+                          "weight": "900"
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    },
+                    {
+                      "content": {
+                        "value": "Brand programs drive new customer acquisition. ProMotionic has a rich experience in branding and rebranding.",
+                        "label": "sub text",
+                        "type": "text",
+                        "for": "subtext two",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "16",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    },
+                    {
+                      "content": {
+                        "value": "",
+                        "label": "subImage three",
+                        "type": "img",
+                        "for": "subImage three",
+                        "src": "https://cdn-icons-gif.flaticon.com/12205/12205137.gif",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "",
+                          "size": "",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    },
+                    {
+                      "content": {
+                        "value": "Best Support",
+                        "label": "sub title",
+                        "type": "title",
+                        "for": "title three",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "30",
+                          "style": "",
+                          "color": "",
+                          "weight": "900"
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    },
+                    {
+                      "content": {
+                        "value": "You can count on our support during our work on your project as well as after its completion",
+                        "label": "sub text",
+                        "type": "text",
+                        "for": "subtext three",
+                        "link": ""
+                      },
+                      "style": {
+                        "font": {
+                          "family": "Nunito, sans-serif",
+                          "size": "16",
+                          "style": "",
+                          "color": "",
+                          "weight": ""
+                        },
+                        "backgroundColor": ""
+                      },
+                      "editable": true,
+                      "display": "block"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
