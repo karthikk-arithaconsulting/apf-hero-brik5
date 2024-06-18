@@ -8,12 +8,13 @@
           "style": {},
           "cols": [
             {
-              "colspan": "4",
+              "colspan": "12",
               "style": {},
               "colData": [
                 {
-                  "brikId": "",
-                  "brikName": "Hero Brik",
+                  "type": "brik",
+                  "brikId": "@apf/brik-hero-five",
+                  "brikName": "Hero",
                   "editorId": "initial json",
                   "version": "*",
                   "editable": true,

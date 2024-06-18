@@ -1,6 +1,6 @@
 {
   "name": "@apf/brik-hero-five",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "main": "dist/publish.js",
   "files": [
     "dist"
