@@ -310,5 +310,11 @@
         }
       ]
     }
-  ]
+  ],
+  "template": {
+    "id": "120f30c9a0787962b9a8ff6fbafc1eb2cf09a06c19c886c1ea8d73ad4123e59d",
+    "name": "aritha",
+    "category": "technology",
+    "description": ""
+  }
 }

@@ -12,8 +12,9 @@
               "style": {},
               "colData": [
                 {
-                  "brikId": "",
-                  "brikName": "Hero Brik",
+                  "type": "brik",
+                  "brikId": "@apf/brik-hero-five",
+                  "brikName": "Hero",
                   "editorId": "avatar-1",
                   "version": "*",
                   "editable": true,
@@ -251,5 +252,11 @@
         }
       ]
     }
-  ]
+  ],
+  "template": {
+    "id": "",
+    "name": "aritha",
+    "category": "technology",
+    "description": ""
+  }
 }

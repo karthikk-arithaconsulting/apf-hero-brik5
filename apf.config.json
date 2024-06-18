@@ -4,7 +4,7 @@
     "npm run eslint"
   ],
   "author": "karthik.k <karthik.k@arithaconsulting.com>",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "brikId": "@apf/brik-hero-five",
   "brikName": "brik-hero-five",
   "published": true,

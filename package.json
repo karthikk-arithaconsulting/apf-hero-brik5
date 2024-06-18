@@ -1,13 +1,13 @@
 {
   "name": "@apf/brik-hero-five",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "main": "dist/publish.js",
   "files": [
     "dist"
   ],
   "homepage": "./",
   "dependencies": {
-    "@apf/app-wrapper2": "^0.1.24",
+    "@apf/app-wrapper2": "^0.1.27",
     "@apf/brik-wrapper": "^0.1.6",
     "@apf/core": "^0.0.15",
     "react": "^18.2.0",
